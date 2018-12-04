@@ -81,3 +81,10 @@ deploy:
   type: git
   repository: git@github.com:Puken/puken.github.io.git
   branch: master
+
+# hexo-admin authentification
+admin:
+  username: root
+  password_hash: $2a$10$J8sAz0Ykdeeie8JUbGUbpOCbkY0.z1YRoSKx225sa2ENuPzxCUAz.
+  secret: wlg23127wlg23127
+  deployCommand: './admin_script/hexo-generate.sh'
